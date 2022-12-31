@@ -1,0 +1,103 @@
+@media (max-width: 111.2em) {
+  html {
+    font-size: 50%;
+  }
+
+  .result {
+    font-size: 3.4rem;
+  }
+
+  .result p {
+    padding: 2.3rem;
+  }
+}
+
+@media (max-width: 90em) {
+  html {
+    font-size: 40%;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .country-name {
+    font-size: 4rem;
+  }
+
+  .result {
+    font-size: 3.8rem;
+  }
+
+  .result p {
+    padding: 2.6rem;
+  }
+}
+
+@media (max-width: 63.75em) {
+  html {
+    font-size: 25%;
+  }
+
+  .container {
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .country-l__main,
+  .country-r__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70rem;
+  }
+
+  .country-l__helper,
+  .country-r__helper {
+    height: 70rem;
+  }
+
+  .res-box {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: -5rem;
+    display: flex;
+  }
+
+  .mobile-name {
+    display: block;
+  }
+
+  .desktop-name {
+    display: none;
+  }
+}
+
+@media (max-width: 45.6em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 20%;
+  }
+}
+
+@media (max-width: 18.8em) {
+  html {
+    font-size: 15%;
+  }
+}
+
+/*# sourceMappingURL=index.a6bb4ef6.css.map */

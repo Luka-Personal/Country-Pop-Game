@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country &mdash; Game</title>
+    <!-- <meta property="og:image" content="src/img/main.png" /> -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bmi-luka-calc.netlify.app/" />
+    <meta property="og:title" content="Try out your knowledge of Geography" />
+    <meta property="og:description" content="Do you know which of 2 random country has a higher population?" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/queries.css" />
+    <!-- <link rel="manifest" href="/manifest/manifest.webmanifest" /> -->
+    <!-- <link rel="apple-touch-icon" href="src/img/logo.png" /> -->
+    <!-- <link rel="icon" href="src/img/logo.png" /> -->
+    <script type="module" defer src="src/js/controller.js"></script>
+    <script type="module" defer src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Which country has more population?</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="country-l__main country-main__holder">
+          <img class="country-l__helper" alt="country flag" src="#" />
+          <p class="l-name country-name"></p>
+        </div>
+        <div class="res-box">
+          <div class="result">
+            <p class="game-score">Score: 3</p>
+          </div>
+          <div class="result">
+            <p class="game-answer">Click flag to start!</p>
+          </div>
+        </div>
+        <div class="country-r__main country-main__holder">
+          <p class="r-name country-name mobile-name"></p>
+          <img class="country-r__helper" alt="country flag" />
+          <p class="r-name country-name desktop-name"></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

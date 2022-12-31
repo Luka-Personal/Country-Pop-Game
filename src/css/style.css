@@ -1,0 +1,117 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #bf2e34;
+  padding: 0 5rem;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  justify-content: space-between;
+  padding-top: 20rem;
+  display: flex;
+}
+
+.country-l__main,
+.country-r__main {
+  width: 75rem;
+  height: 45rem;
+}
+
+.country-l__helper,
+.country-r__helper {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 23;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 0.5rem solid #7c368a94;
+  box-shadow: 0 0 50px 10px #0000004d;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding: 0 1rem;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.result {
+  height: 22.5rem;
+  color: #fff;
+  align-items: center;
+  font-size: 3rem;
+  display: flex;
+}
+
+.result p {
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff2e;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.res-box {
+  height: 45rem;
+  margin: 0 2rem;
+}
+
+.hide-answer {
+  opacity: 0;
+  visibility: 0;
+}
+
+.country-name {
+  text-align: center;
+  color: #fff;
+  margin-top: 1.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.mobile-name {
+  display: none;
+}
+
+.game-score {
+  cursor: pointer;
+}
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+ion-icon {
+  width: 7rem;
+  height: 7rem;
+  color: #fff;
+  animation: loading 1s infinite ease-in-out;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=index.c92073ef.css.map */
