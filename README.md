@@ -1,6 +1,4 @@
-# Country Pop
-
-Welcome to Country Pop, a simple game in which you must select a country with a larger population than others.
+# Country Pop Game
 
 ## Getting Started
 
