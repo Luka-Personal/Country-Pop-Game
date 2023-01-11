@@ -4,7 +4,12 @@ Welcome to Country Pop, a simple game in which you must select a country with a 
 
 ## Getting Started
 
-To play the game, simply open the link and click on a flag to start.
+To play the game, follow these steps:
+
+1. Clone the repository by running `git clone https://github.com/Luka-Personal/Country-Pop-Game.git`
+2. Run `npm install` to install the necessary dependencies.
+3. Configure the TypeScript compiler with your desired settings. 
+4. Run the game by opening the `index.html` file in your browser and clicking on the flag to start the game.
 
 The game will present you a flag of two countries, and you must select the one with the largest population.
 
@@ -22,7 +27,7 @@ The game includes the following components:
 
 ## Technologies Used
 
-- JavaScript
+- JavaScript/Typescript
 - HTML/CSS
 
 ## API Used
