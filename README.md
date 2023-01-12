@@ -7,7 +7,8 @@ To play the game, follow these steps:
 1. Clone the repository by running `git clone https://github.com/Luka-Personal/Country-Pop-Game.git`
 2. Run `npm install` to install the necessary dependencies.
 3. Configure the TypeScript compiler with your desired settings. 
-4. Run the game by opening the `index.html` file in your browser and clicking on the flag to start the game.
+4. Run npm start to start the development server
+5. Access the application at http://localhost:1234
 
 The game will present you a flag of two countries, and you must select the one with the largest population.
 
