@@ -37,10 +37,6 @@ The game includes the following components:
 
 Luka Tsinaridze - [Luka](https://github.com/Luka-Personal)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 * Inspiration from Jonas schmedtmann's Javascipt course [Udemy](https://www.udemy.com/user/jonasschmedtmann/)
