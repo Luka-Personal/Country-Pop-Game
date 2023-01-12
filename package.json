@@ -1,12 +1,12 @@
 {
-  "name": "untitled-folder-2",
+  "name": "Country Pop Game",
   "version": "1.0.0",
-  "description": "",
+  "description": "Game about comparing countries population",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
-  "author": "",
+  "author": "Luka Tsinaridze",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.8.2",
